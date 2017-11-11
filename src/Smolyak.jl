@@ -29,7 +29,7 @@ typealias ScalarOrVec{T} Union{T,Vector{T}}
 """
 module Smolyak
 
-using Base.Cartesian, Base.LinAlg, Iterators
+using Base.Cartesian, Base.LinAlg, IterTools
 import Base.show 
 
 typealias AA{T} Array{Array{T,1},1}
